@@ -1,275 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ChineseLearn.site - Your ultimate guide to learning Mandarin Chinese. Find the best resources, tools, and courses to master Chinese easily.">
-  <meta name="keywords" content="Learn Chinese, Mandarin Learning, Chinese Resources, Chinese Courses, Chinese Tools, Chinese for Beginners">
-  <title>ChineseLearn.site - Learn Mandarin Chinese Easily</title>
-  
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ESZFGVFQNX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-ESZFGVFQNX');
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn Chinese online with the best resources for language learners. Explore 50+ websites for vocabulary, grammar, listening, speaking, and more. Perfect for beginners and advanced learners.">
+    <meta name="keywords" content="learn Chinese, Chinese learning websites, Chinese grammar, Chinese vocabulary, HSK preparation, Chinese listening, Chinese speaking">
+    <meta name="author" content="ChineseLearn.site">
+    <title>50+ Chinese Learning Resources - ChineseLearn.site</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.6;
+        }
 
-  <style>
-    /* Reset and Basic Styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+        a {
+            color: #007aff;
+            text-decoration: none;
+        }
 
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      line-height: 1.6;
-      color: #1d1d1f;
-      background-color: #f5f5f7;
-    }
+        a:hover {
+            text-decoration: underline;
+        }
 
-    a {
-      text-decoration: none;
-      color: #007AFF;
-    }
+        /* Header */
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
 
-    a:hover {
-      text-decoration: underline;
-    }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #1d1d1f;
+        }
 
-    /* Header */
-    header {
-      background: linear-gradient(135deg, #007AFF, #0040FF);
-      color: #fff;
-      padding: 60px 20px;
-      text-align: center;
-    }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+            color: #6e6e73;
+        }
 
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
+        /* Search Box */
+        .search-box {
+            margin: 20px auto;
+            text-align: center;
+        }
 
-    header p {
-      font-size: 1.2rem;
-      opacity: 0.9;
-    }
+        .search-box input {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
 
-    /* Navigation */
-    nav {
-      background: #fff;
-      padding: 20px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      text-align: center;
-    }
+        .search-box button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #007aff;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
 
-    nav a {
-      margin: 0 15px;
-      font-size: 1rem;
-      color: #1d1d1f;
-    }
+        .search-box button:hover {
+            background-color: #005bb5;
+        }
 
-    nav a:hover {
-      color: #007AFF;
-    }
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
 
-    /* Main Content */
-    main {
-      padding: 40px 20px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+        .category {
+            background-color: #ffffff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
 
-    section {
-      margin-bottom: 40px;
-    }
+        .category h2 {
+            margin-top: 0;
+            font-size: 1.8rem;
+            color: #1d1d1f;
+        }
 
-    section h2 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-      color: #1d1d1f;
-    }
+        .category p {
+            font-size: 1rem;
+            color: #6e6e73;
+        }
 
-    .resource-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
+        .category ul {
+            list-style-type: none;
+            padding: 0;
+        }
 
-    .resource-card {
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
-    }
+        .category ul li {
+            margin: 10px 0;
+        }
 
-    .resource-card:hover {
-      transform: translateY(-5px);
-    }
+        .category ul li a {
+            font-size: 1.1rem;
+        }
 
-    .resource-card h3 {
-      font-size: 1.2rem;
-      margin-bottom: 10px;
-      color: #007AFF;
-    }
+        /* Footer */
+        footer {
+            background-color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
 
-    .resource-card p {
-      font-size: 0.95rem;
-      color: #666;
-    }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #6e6e73;
+        }
 
-    /* Footer */
-    footer {
-      background: #1d1d1f;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-    }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
 
-    footer p {
-      font-size: 0.9rem;
-      opacity: 0.8;
-    }
+            .search-box input {
+                width: 100%;
+            }
 
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      header h1 {
-        font-size: 2rem;
-      }
+            .category h2 {
+                font-size: 1.5rem;
+            }
 
-      header p {
-        font-size: 1rem;
-      }
-
-      nav a {
-        display: block;
-        margin: 10px 0;
-      }
-
-      .resource-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+            .category ul li a {
+                font-size: 1rem;
+            }
+        }
+    </style>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXXX-X');
+    </script>
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <h1>Learn Mandarin Chinese Easily</h1>
-    <p>Your ultimate guide to mastering Chinese with the best resources and tools.</p>
-  </header>
+    <header>
+        <h1>50+ Chinese Learning Resources</h1>
+        <p>Your ultimate guide to learning Chinese online. Explore 50+ websites for vocabulary, grammar, listening, speaking, and more.</p>
+        <div class="search-box">
+            <input type="text" placeholder="Search for resources...">
+            <button>Search</button>
+        </div>
+    </header>
 
-  <!-- Navigation -->
-  <nav>
-    <a href="#beginner">Beginner</a>
-    <a href="#intermediate">Intermediate</a>
-    <a href="#advanced">Advanced</a>
-    <a href="#tools">Tools</a>
-    <a href="#community">Community</a>
-  </nav>
+    <div class="container">
+        <!-- Language Learning Platforms -->
+        <div class="category">
+            <h2>Language Learning Platforms</h2>
+            <p>Start your Chinese learning journey with these popular platforms.</p>
+            <ul>
+                <li><a href="https://www.duolingo.com" target="_blank">Duolingo</a> - Fun and interactive Chinese lessons.</li>
+                <li><a href="https://www.rosettastone.com" target="_blank">Rosetta Stone</a> - Immersive Chinese learning.</li>
+                <li><a href="https://www.babbel.com" target="_blank">Babbel</a> - Practical Chinese conversations.</li>
+                <li><a href="https://www.memrise.com" target="_blank">Memrise</a> - Learn Chinese vocabulary with flashcards.</li>
+                <li><a href="https://www.busuu.com" target="_blank">Busuu</a> - Chinese courses and language exchange.</li>
+            </ul>
+        </div>
 
-  <!-- Main Content -->
-  <main>
-    <!-- Beginner Section -->
-    <section id="beginner">
-      <h2>Beginner Resources</h2>
-      <div class="resource-grid">
-        <div class="resource-card">
-          <h3><a href="https://www.duolingo.com" target="_blank">Duolingo</a></h3>
-          <p>Learn Chinese through fun, game-like lessons. Perfect for beginners.</p>
+        <!-- Online Dictionaries and Translation Tools -->
+        <div class="category">
+            <h2>Online Dictionaries and Translation Tools</h2>
+            <p>Essential tools for translating and understanding Chinese.</p>
+            <ul>
+                <li><a href="https://www.pleco.com" target="_blank">Pleco</a> - Chinese dictionary with handwriting input.</li>
+                <li><a href="https://www.mdbg.net" target="_blank">MDBG</a> - Online Chinese-English dictionary.</li>
+                <li><a href="https://www.youdao.com" target="_blank">Youdao</a> - Chinese translation and examples.</li>
+                <li><a href="https://translate.google.com" target="_blank">Google Translate</a> - Translate Chinese to English.</li>
+                <li><a href="https://www.hanpingchinese.com" target="_blank">Hanping Chinese Dictionary</a> - Android Chinese dictionary.</li>
+            </ul>
         </div>
-        <div class="resource-card">
-          <h3><a href="https://www.hellochinese.cc" target="_blank">HelloChinese</a></h3>
-          <p>A comprehensive app for learning Mandarin, focusing on speaking and listening.</p>
-        </div>
-        <div class="resource-card">
-          <h3><a href="https://www.chinesepod.com" target="_blank">ChinesePod</a></h3>
-          <p>Daily lessons and podcasts to help you learn Chinese step by step.</p>
-        </div>
-      </div>
-    </section>
 
-    <!-- Intermediate Section -->
-    <section id="intermediate">
-      <h2>Intermediate Resources</h2>
-      <div class="resource-grid">
-        <div class="resource-card">
-          <h3><a href="https://www.memrise.com" target="_blank">Memrise</a></h3>
-          <p>Expand your vocabulary with interactive courses and games.</p>
+        <!-- Chinese Character Learning -->
+        <div class="category">
+            <h2>Chinese Character Learning</h2>
+            <p>Master Chinese characters with these resources.</p>
+            <ul>
+                <li><a href="https://www.skritter.com" target="_blank">Skritter</a> - Learn Chinese characters through writing.</li>
+                <li><a href="https://apps.ankiweb.net" target="_blank">Anki</a> - Flashcards for Chinese characters and vocabulary.</li>
+                <li><a href="https://www.chinese-tools.com" target="_blank">Chinese-Tools</a> - Chinese character writing practice.</li>
+                <li><a href="https://www.archchinese.com" target="_blank">Arch Chinese</a> - Chinese character animations and exercises.</li>
+                <li><a href="https://www.hanzigrids.com" target="_blank">Hanzi Grids</a> - Create custom Chinese character practice sheets.</li>
+            </ul>
         </div>
-        <div class="resource-card">
-          <h3><a href="https://www.yoyochinese.com" target="_blank">Yoyo Chinese</a></h3>
-          <p>Structured courses to improve your speaking and listening skills.</p>
-        </div>
-        <div class="resource-card">
-          <h3><a href="https://www.pleco.com" target="_blank">Pleco</a></h3>
-          <p>A powerful dictionary and learning tool for Chinese learners.</p>
-        </div>
-      </div>
-    </section>
 
-    <!-- Advanced Section -->
-    <section id="advanced">
-      <h2>Advanced Resources</h2>
-      <div class="resource-grid">
-        <div class="resource-card">
-          <h3><a href="https://www.fluentu.com" target="_blank">FluentU</a></h3>
-          <p>Learn Chinese through real-world videos like music videos and news.</p>
+        <!-- Grammar and Sentence Structure -->
+        <div class="category">
+            <h2>Grammar and Sentence Structure</h2>
+            <p>Improve your Chinese grammar with these resources.</p>
+            <ul>
+                <li><a href="https://resources.allsetlearning.com/chinese/grammar/" target="_blank">Chinese Grammar Wiki</a> - Detailed Chinese grammar explanations.</li>
+                <li><a href="https://www.allsetlearning.com" target="_blank">AllSet Learning</a> - Chinese grammar learning and practice.</li>
+                <li><a href="https://www.mandarinbean.com" target="_blank">Mandarin Bean</a> - Chinese reading and grammar exercises.</li>
+                <li><a href="https://www.chineseboost.com" target="_blank">Chinese Boost</a> - Chinese grammar and sentence patterns.</li>
+                <li><a href="https://www.yoyochinese.com" target="_blank">Yoyo Chinese</a> - Video lessons on Chinese grammar and pronunciation.</li>
+            </ul>
         </div>
-        <div class="resource-card">
-          <h3><a href="https://www.thechairmansbao.com" target="_blank">The Chairman's Bao</a></h3>
-          <p>Read Chinese news articles tailored for learners.</p>
-        </div>
-        <div class="resource-card">
-          <h3><a href="https://resources.allsetlearning.com/chinese/grammar/" target="_blank">Chinese Grammar Wiki</a></h3>
-          <p>Master Chinese grammar with detailed explanations.</p>
-        </div>
-      </div>
-    </section>
 
-    <!-- Tools Section -->
-    <section id="tools">
-      <h2>Learning Tools</h2>
-      <div class="resource-grid">
-        <div class="resource-card">
-          <h3><a href="https://www.skritter.com" target="_blank">Skritter</a></h3>
-          <p>Learn to write Chinese characters with interactive practice.</p>
+        <!-- Listening Practice -->
+        <div class="category">
+            <h2>Listening Practice</h2>
+            <p>Enhance your Chinese listening skills with these resources.</p>
+            <ul>
+                <li><a href="https://www.chinesepod.com" target="_blank">ChinesePod</a> - Chinese listening materials for all levels.</li>
+                <li><a href="https://www.slow-chinese.com" target="_blank">Slow Chinese</a> - Slow-speed Chinese listening practice.</li>
+                <li><a href="https://www.pimsleur.com" target="_blank">Pimsleur</a> - Audio-based Chinese listening and speaking courses.</li>
+                <li><a href="https://www.audible.com" target="_blank">Audible</a> - Chinese audiobooks and podcasts.</li>
+                <li><a href="https://www.fluentu.com" target="_blank">FluentU</a> - Learn Chinese through videos and listening exercises.</li>
+            </ul>
         </div>
-        <div class="resource-card">
-          <h3><a href="https://www.hanzicraft.com" target="_blank">HanziCraft</a></h3>
-          <p>Break down Chinese characters and understand their structure.</p>
-        </div>
-        <div class="resource-card">
-          <h3><a href="https://www.italki.com" target="_blank">iTalki</a></h3>
-          <p>Connect with native Chinese tutors for personalized lessons.</p>
-        </div>
-      </div>
-    </section>
 
-    <!-- Community Section -->
-    <section id="community">
-      <h2>Community & Forums</h2>
-      <div class="resource-grid">
-        <div class="resource-card">
-          <h3><a href="https://www.reddit.com/r/ChineseLanguage/" target="_blank">Reddit - r/ChineseLanguage</a></h3>
-          <p>Join a community of Chinese learners to share tips and resources.</p>
+        <!-- Reading Materials -->
+        <div class="category">
+            <h2>Reading Materials</h2>
+            <p>Improve your Chinese reading skills with these resources.</p>
+            <ul>
+                <li><a href="https://www.thechairmansbao.com" target="_blank">The Chairman's Bao</a> - Chinese news articles for learners.</li>
+                <li><a href="https://www.duchinese.net" target="_blank">Du Chinese</a> - Graded Chinese reading materials.</li>
+                <li><a href="https://www.chinesereadingpractice.com" target="_blank">Chinese Reading Practice</a> - Simple Chinese reading materials.</li>
+                <li><a href="https://www.mandarincompanion.com" target="_blank">Mandarin Companion</a> - Graded Chinese readers.</li>
+                <li><a href="https://www.sinolingua.com.cn" target="_blank">Sinolingua</a> - Chinese learning books and reading materials.</li>
+            </ul>
         </div>
-        <div class="resource-card">
-          <h3><a href="https://lang-8.com" target="_blank">Lang-8</a></h3>
-          <p>Practice writing in Chinese and get feedback from native speakers.</p>
-        </div>
-      </div>
-    </section>
-  </main>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2023 ChineseLearn.site | Your Guide to Learning Mandarin Chinese</p>
-  </footer>
+        <!-- Speaking Practice -->
+        <div class="category">
+            <h2>Speaking Practice</h2>
+            <p>Practice speaking Chinese with these resources.</p>
+            <ul>
+                <li><a href="https://www.italki.com" target="_blank">iTalki</a> - One-on-one Chinese speaking lessons.</li>
+                <li><a href="https://www.hellotalk.com" target="_blank">HelloTalk</a> - Language exchange with native Chinese speakers.</li>
+                <li><a href="https://www.tandem.net" target="_blank">Tandem</a> - Language exchange for speaking practice.</li>
+                <li><a href="https://www.speaky.com" target="_blank">Speaky</a> - Practice speaking with language learners worldwide.</li>
+                <li><a href="https://www.preply.com" target="_blank">Preply</a> - Online Chinese speaking tutors.</li>
+            </ul>
+        </div>
+
+        <!-- Chinese Culture and History -->
+        <div class="category">
+            <h2>Chinese Culture and History</h2>
+            <p>Learn about Chinese culture and history.</p>
+            <ul>
+                <li><a href="https://www.cctv.com" target="_blank">CCTV</a> - Chinese news and cultural programs.</li>
+                <li><a href="https://www.chinahighlights.com" target="_blank">China Highlights</a> - Chinese culture, history, and travel.</li>
+                <li><a href="https://www.chinese-tools.com" target="_blank">Chinese-Tools</a> - Chinese culture and language resources.</li>
+                <li><a href="https://www.theworldofchinese.com" target="_blank">The World of Chinese</a> - Chinese culture and lifestyle.</li>
+                <li><a href="https://www.chinadaily.com.cn" target="_blank">China Daily</a> - Chinese news and cultural reports.</li>
+            </ul>
+        </div>
+
+        <!-- Videos and Podcasts -->
+        <div class="category">
+            <h2>Videos and Podcasts</h2>
+            <p>Learn Chinese through videos and podcasts.</p>
+            <ul>
+                <li><a href="https://www.youtube.com" target="_blank">YouTube</a> - Chinese learning channels and videos.</li>
+                <li><a href="https://www.bilibili.com" target="_blank">Bilibili</a> - Chinese video platform with learning content.</li>
+                <li><a href="https://www.ximalaya.com" target="_blank">Ximalaya</a> - Chinese podcasts for listening practice.</li>
+                <li><a href="https://www.youku.com" target="_blank">Youku</a> - Chinese videos and TV shows.</li>
+                <li><a href="https://www.qq.com" target="_blank">QQ Music</a> - Chinese songs and lyrics for learning.</li>
+            </ul>
+        </div>
+
+        <!-- Exam Preparation -->
+        <div class="category">
+            <h2>Exam Preparation</h2>
+            <p>Prepare for Chinese proficiency exams like HSK.</p>
+            <ul>
+                <li><a href="https://www.hskonline.com" target="_blank">HSK Online</a> - HSK exam preparation materials.</li>
+                <li><a href="https://www.hskacademy.com" target="_blank">HSK Academy</a> - HSK vocabulary and practice.</li>
+                <li><a href="https://www.chinesetest.cn" target="_blank">Chinese Test</a> - HSK mock exams and exercises.</li>
+                <li><a href="https://www.allsetlearning.com/hsk" target="_blank">AllSet Learning HSK</a> - HSK preparation resources.</li>
+                <li><a href="https://www.hsklevel.com" target="_blank">HSK Level</a> - HSK vocabulary and grammar practice.</li>
+            </ul>
+        </div>
+
+        <!-- Communities and Forums -->
+        <div class="category">
+            <h2>Communities and Forums</h2>
+            <p>Join Chinese learning communities for support and resources.</p>
+            <ul>
+                <li><a href="https://www.reddit.com/r/ChineseLanguage" target="_blank">Reddit (r/ChineseLanguage)</a> - Chinese learning discussions.</li>
+                <li><a href="https://www.quora.com" target="_blank">Quora</a> - Questions and answers about learning Chinese.</li>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook Groups</a> - Join Chinese learning groups.</li>
+                <li><a href="https://www.lang-8.com" target="_blank">Lang-8</a> - Practice writing Chinese with native speakers.</li>
+                <li><a href="https://www.hinative.com" target="_blank">HiNative</a> - Ask questions about Chinese language and culture.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 ChineseLearn.site. All rights reserved.</p>
+    </footer>
 </body>
 </html>
